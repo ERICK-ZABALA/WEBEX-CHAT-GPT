@@ -109,7 +109,7 @@ Successfully installed backoff-2.2.1 coloredlogs-15.0.1 humanfriendly-10.0 webex
 
 (wbx_gpt) [opc@jenkins-master WBX_GPT]$ export WEBEX_TOKEN=NTc1ZTY1ZDQxxxxxxxxxxxxxxxxxiNmE5MGQ5ZDUtZjxxxxxxxxxxxxxx83-4c54-8097-2c1xxxxx >> ~/.bashrc
 (wbx_gpt) [opc@jenkins-master WBX_GPT]$ export GPT_TOKEN=sk-q7HxxVxXQxxxxxxxxxxxxxxkFJxxxxxxxxxxxxxw >> ~/.bashrc
-(wbx_gpt) [opc@jenkins-master WBX_GPT]$ export WEBEX_DOMAIN=WbxGPT@webex.bot >> ~/.bashrc
+(wbx_gpt) [opc@jenkins-master WBX_GPT]$ export WEBEX_DOMAIN=WxxxT@wxxco.bot >> ~/.bashrc
 (wbx_gpt) [opc@jenkins-master WBX_GPT]$ source ~/.bashrc
 (wbx_gpt) [opc@jenkins-master WBX_GPT]$ echo $WEBEX_TOKEN
 
