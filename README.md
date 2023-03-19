@@ -1,4 +1,5 @@
-#![image](https://user-images.githubusercontent.com/38144008/226164092-bdda6ad6-cd04-4ffe-9149-7770101d9c42.png)
+# ![image](https://user-images.githubusercontent.com/38144008/226164092-bdda6ad6-cd04-4ffe-9149-7770101d9c42.png)
+
 [![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/ERICK-ZABALA/AUTOMATING-A-NETWORK-INVENTORY-WITH-PYTHON) [![Run in Cisco Cloud IDE](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-runable-icon.svg)](https://developer.cisco.com/devenv/?id=devenv-vscode-base&GITHUB_SOURCE_REPO=https://github.com/ERICK-ZABALA/AUTOMATING-A-NETWORK-INVENTORY-WITH-PYTHON)
 
 # WEBEX AND CHAT GPT
