@@ -133,7 +133,7 @@ WEBEX_DOMAIN = os.environ.get('WEBEX_DOMAIN')
 
 ```python
 
-#!/home/opc/DEVNET/WBX_GPT/wbx_gpt/bin/python
+#!/home/opc/DEVNET/WEBEX-CHAT-GPT/wbx_gpt/bin/python
 import os
 import requests
 from urllib3 import disable_warnings, exceptions
