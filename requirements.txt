@@ -1,0 +1,14 @@
+backoff==2.2.1
+certifi==2022.12.7
+charset-normalizer==3.1.0
+coloredlogs==15.0.1
+future==0.18.3
+humanfriendly==10.0
+idna==3.4
+PyJWT==2.6.0
+requests==2.28.2
+requests-toolbelt==0.10.1
+urllib3==1.26.15
+webex-bot==0.3.4
+webexteamssdk==1.6.1
+websockets==10.2
