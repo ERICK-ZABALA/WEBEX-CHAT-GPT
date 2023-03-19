@@ -320,7 +320,7 @@ Note: The other function below just maintain and that's all :)
 # REFERENCES
 
 + Library [webex-bot](https://pypi.org/project/webex-bot/) in the portal web Python. 
-+ Library [WebexTeamSDK](https://webexteamssdk.readthedocs.io/en/latest/) in the portal web Python.
++ Library [Webex Team SDK](https://webexteamssdk.readthedocs.io/en/latest/) in the portal web Python.
 + Site of Cisco https://developer.cisco.com/ to create your account.
-+ Site Chat [OPENAI](https://platform.openai.com/) to create your account anf API Key.
++ Site Chat [OPEN AI](https://platform.openai.com/) to create your account anf API Key.
 
