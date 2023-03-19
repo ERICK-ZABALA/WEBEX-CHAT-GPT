@@ -1,4 +1,3 @@
-![image](https://user-images.githubusercontent.com/38144008/226164092-bdda6ad6-cd04-4ffe-9149-7770101d9c42.png)
 
 # WEBEX AND CHAT GPT
 
