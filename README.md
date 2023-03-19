@@ -62,6 +62,7 @@ Requirement already satisfied: certifi>=2017.4.17 in ./wbx_gpt/lib/python3.10/si
 Requirement already satisfied: urllib3<1.27,>=1.21.1 in ./wbx_gpt/lib/python3.10/site-packages (from requests) (1.26.15)
 Requirement already satisfied: idna<4,>=2.5 in ./wbx_gpt/lib/python3.10/site-packages (from requests) (3.4)
 Requirement already satisfied: charset-normalizer<4,>=2 in ./wbx_gpt/lib/python3.10/site-packages (from requests) (3.1.0)
+
 (wbx_gpt) [opc@jenkins-master WBX_GPT]$ pip install webex_bot
 Collecting webex_bot
   Using cached webex_bot-0.3.4-py2.py3-none-any.whl (18 kB)

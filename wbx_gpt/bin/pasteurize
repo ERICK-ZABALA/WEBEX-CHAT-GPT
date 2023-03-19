@@ -1,4 +1,4 @@
-#!/home/opc/DEVNET/WBX_GPT/wbx_gpt/bin/python3.10
+#!/home/opc/DEVNET/WEBEX-CHAT-GPT/wbx_gpt/bin/python3.10
 # EASY-INSTALL-ENTRY-SCRIPT: 'future==0.18.3','console_scripts','pasteurize'
 import re
 import sys

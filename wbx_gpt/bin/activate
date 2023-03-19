@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/opc/DEVNET/WBX_GPT/wbx_gpt"
+VIRTUAL_ENV="/home/opc/DEVNET/WEBEX-CHAT-GPT/wbx_gpt"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

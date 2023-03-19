@@ -30,7 +30,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/opc/DEVNET/WBX_GPT/wbx_gpt"
+set -gx VIRTUAL_ENV "/home/opc/DEVNET/WEBEX-CHAT-GPT/wbx_gpt"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
