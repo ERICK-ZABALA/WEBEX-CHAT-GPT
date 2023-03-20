@@ -58,13 +58,18 @@ Installing collected packages: urllib3, PyJWT, idna, future, charset-normalizer,
   DEPRECATION: future is being installed using the legacy 'setup.py install' method, because it does not have a 'pyproject.toml' and the 'wheel' package is not installed. pip 23.1 will enforce this behaviour change. A possible replacement is to enable the '--use-pep517' option. Discussion can be found at https://github.com/pypa/pip/issues/8559
   Running setup.py install for future ... done
 Successfully installed PyJWT-2.6.0 certifi-2022.12.7 charset-normalizer-3.1.0 future-0.18.3 idna-3.4 requests-2.28.2 requests-toolbelt-0.10.1 urllib3-1.26.15 webexteamssdk-1.6.1
+```
+
+```yaml
 (wbx_gpt) [opc@jenkins-master WBX_GPT]$ pip install requests
 Requirement already satisfied: requests in ./wbx_gpt/lib/python3.10/site-packages (2.28.2)
 Requirement already satisfied: certifi>=2017.4.17 in ./wbx_gpt/lib/python3.10/site-packages (from requests) (2022.12.7)
 Requirement already satisfied: urllib3<1.27,>=1.21.1 in ./wbx_gpt/lib/python3.10/site-packages (from requests) (1.26.15)
 Requirement already satisfied: idna<4,>=2.5 in ./wbx_gpt/lib/python3.10/site-packages (from requests) (3.4)
 Requirement already satisfied: charset-normalizer<4,>=2 in ./wbx_gpt/lib/python3.10/site-packages (from requests) (3.1.0)
+```
 
+```yaml
 (wbx_gpt) [opc@jenkins-master WBX_GPT]$ pip install webex_bot
 Collecting webex_bot
   Using cached webex_bot-0.3.4-py2.py3-none-any.whl (18 kB)
@@ -92,8 +97,8 @@ Successfully installed backoff-2.2.1 coloredlogs-15.0.1 humanfriendly-10.0 webex
 
 + Assign file wbx_gpt.py as executable.
 
-```yaml
 
+```yaml
     (wbx_gpt) [opc@jenkins-master WBX_GPT]$ ls
     wbx_gpt
     (wbx_gpt) [opc@jenkins-master WBX_GPT]$ touch wbx_gpt.py
@@ -108,6 +113,7 @@ Successfully installed backoff-2.2.1 coloredlogs-15.0.1 humanfriendly-10.0 webex
 
 + Store your credentials as variable of environment
 
+
 ```yaml
 
 (wbx_gpt) [opc@jenkins-master WBX_GPT]$ export WEBEX_TOKEN=NTc1ZTY1ZDQxxxxxxxxxxxxxxxxxiNmE5MGQ5ZDUtZjxxxxxxxxxxxxxx83-4c54-8097-2c1xxxxx >> ~/.bashrc
@@ -118,6 +124,7 @@ Successfully installed backoff-2.2.1 coloredlogs-15.0.1 humanfriendly-10.0 webex
 
 ```
 + Now we need to set this variable in your code wbx_gpt.py.
+
 
 ```python
 import os
@@ -130,6 +137,7 @@ WEBEX_DOMAIN = os.environ.get('WEBEX_DOMAIN')
 + Add this code in order to check if all is working fine... testing
 
 ![image](https://user-images.githubusercontent.com/38144008/226158793-7bfaffed-b9a2-42cf-a430-a2613e699ed6.png)
+
 
 ```python
 
@@ -175,11 +183,14 @@ if __name__ == "__main__":
     receive_messages_webex()
 
 ```
+
 + We are going to modify part of the library webex_bot.py
 
 ![image](https://user-images.githubusercontent.com/38144008/226158984-d380c656-67e6-438f-8c77-81c422999068.png)
 
-+ Step 1
+
+# Step 1
+
 You should add this code in the file webex_bot.py
 
 ```python
@@ -196,7 +207,7 @@ api = WebexTeamsAPI(access_token=WEBEX_TOKEN)
 
 ![image](https://user-images.githubusercontent.com/38144008/226160276-090ab578-a9fb-46f6-bc41-d9fdf0f8cbd6.png)
 
-+ Step 2
+# Step 2
 
 Replace this function in file webex_bot.py per:
 
@@ -238,8 +249,9 @@ Replace this function in file webex_bot.py per:
 
 ![image](https://user-images.githubusercontent.com/38144008/226160370-1f920719-c97e-434d-a5ec-a4ed00fde608.png)
 
-+ Step 3
-  We are going to create a function send_message_webex(), message_gpt(), capture_message(teams_message).
+# Step 3
+ 
+ We are going to create a function send_message_webex(), message_gpt(), capture_message(teams_message).
   
   ```python
           
@@ -316,7 +328,6 @@ Note: The other function below just maintain and that's all :)
 # Final Integration
 
 ![image](https://user-images.githubusercontent.com/38144008/226161524-7561cfa9-a237-49bb-a85c-426012445ff2.png)
-
 
 ![image](https://user-images.githubusercontent.com/38144008/226157157-538d9fd0-0c11-46a1-b975-3f4a6ccad8d9.png)
 
