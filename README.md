@@ -67,7 +67,7 @@ Python 3.10.2
 
 Then you can create your environment normal...
 
-# CREATE VENV PYTHON 3.10.2 WITH wbx_gpt
+# CREATE VENV PYTHON 3.10.2
 
 ```yaml
 [opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON]$ python3.10 -m venv wbx_gpt
