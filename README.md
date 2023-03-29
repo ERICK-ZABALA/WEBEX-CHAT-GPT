@@ -241,11 +241,14 @@ if __name__ == "__main__":
 
     receive_messages_webex()
 ```
+
 + Result:
 
 ![image](https://user-images.githubusercontent.com/38144008/226158793-7bfaffed-b9a2-42cf-a430-a2613e699ed6.png)
 
 # FINAL INTEGRATION
+
+Clone the repository: `git clone https://github.com/ERICK-ZABALA/WEBEX-CHAT-GPT.git` and 
 
 Just run: `(wbx_gpt) [opc@jenkins-master WBX_GPT]$ ./wbx_gpt.py`
 
