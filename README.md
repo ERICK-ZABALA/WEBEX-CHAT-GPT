@@ -5,7 +5,7 @@
 
 ChatGPT-Webex integration script! This basic script allows you to easily establish communication between ChatGPT, the advanced language model created by OpenAI, and Webex, the popular video conferencing and collaboration platform provided by Cisco. By utilizing API keys provided by OpenAI and Cisco, you can quickly generate an integration that enables seamless communication between these two powerful platforms. The ultimate goal of this project is to facilitate easy and efficient communication between ChatGPT and Webex, unlocking new possibilities for collaboration and innovation. 
 
-Click in the Dino!!!
+Click on the logo to see the demo!
 
 # CHAT GPT
 
