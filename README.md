@@ -247,6 +247,10 @@ if __name__ == "__main__":
 
 # FINAL INTEGRATION
 
+Just run: `(wbx_gpt) [opc@jenkins-master WBX_GPT]$ ./wbx_gpt.py`
+
+1. Here you can see how to work your integration between Chat GPT and Webex Bot and in the middle you have your application wbx_gpt.py
+
 ![image](https://user-images.githubusercontent.com/38144008/226161524-7561cfa9-a237-49bb-a85c-426012445ff2.png)
 
 ![image](https://user-images.githubusercontent.com/38144008/226157157-538d9fd0-0c11-46a1-b975-3f4a6ccad8d9.png)
