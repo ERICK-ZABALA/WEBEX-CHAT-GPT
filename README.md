@@ -194,8 +194,6 @@ WEBEX_DOMAIN = os.environ.get('WEBEX_DOMAIN')
 
 + Add this code in order to check if all is working fine... testing
 
-![image](https://user-images.githubusercontent.com/38144008/226158793-7bfaffed-b9a2-42cf-a430-a2613e699ed6.png)
-
 1. Create this code: 
 
 ```python
@@ -240,8 +238,22 @@ def receive_messages_webex():
 if __name__ == "__main__":
 
     receive_messages_webex()
-
 ```
++ Result:
+
+![image](https://user-images.githubusercontent.com/38144008/226158793-7bfaffed-b9a2-42cf-a430-a2613e699ed6.png)
+
+# Final Integration
+
+![image](https://user-images.githubusercontent.com/38144008/226161524-7561cfa9-a237-49bb-a85c-426012445ff2.png)
+
+![image](https://user-images.githubusercontent.com/38144008/226157157-538d9fd0-0c11-46a1-b975-3f4a6ccad8d9.png)
+
+# Note: 
+
+At this moment you can clone this repository to run the integration between webex and chat GPT. However, if you whant to know what changes I did in the file webex_bot.py you can continue reading... 
+
++ Step 1, Step 2 and Step 3.
 
 + We are going to modify part of the library webex_bot.py
 
