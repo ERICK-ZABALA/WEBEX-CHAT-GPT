@@ -5,7 +5,7 @@
 
 ChatGPT-Webex integration script! This basic script allows you to easily establish communication between ChatGPT, the advanced language model created by OpenAI, and Webex, the popular video conferencing and collaboration platform provided by Cisco. By utilizing API keys provided by OpenAI and Cisco, you can quickly generate an integration that enables seamless communication between these two powerful platforms. The ultimate goal of this project is to facilitate easy and efficient communication between ChatGPT and Webex, unlocking new possibilities for collaboration and innovation. 
 
-Clic in the Dino!!!
+Click in the Dino!!!
 
 # CHAT GPT
 
@@ -23,11 +23,65 @@ https://platform.openai.com/account/api-keys
 
 # WEBEX
 
+Bots, Give Webex users access to outside services right from their Webex spaces. Bots help users automate tasks, bring external content into the discussion, and gain efficiencies.
+
+1. In this section you need to create an new application and create a bot. Use this link: https://developer.webex.com/my-apps. 
+
+![image](https://user-images.githubusercontent.com/38144008/228422343-786c30f4-b7e4-496a-90d1-95a07434101c.png)
+
+2. Then you need to provide a name to your bot and a Bot username*, The username users will use to add your bot to a space.
+
 ![image](https://user-images.githubusercontent.com/38144008/226158285-439babfb-10ce-4fdb-b4eb-20653a6b77c2.png)
 
 # Install Python 3.10.2 and Dependencies
 
-+ Install Py VENV with dependencies:
+To install python in your development environment. you can follow these steps.
+
++ Download Python via console.
+
+`[opc@jenkins-master WBX_GPT]$ wget https://www.python.org/ftp/python/3.10.2/Python-3.10.2.tgz`
+
++ Extract the downloaded archive by running the following command:
+
+`[opc@jenkins-master WBX_GPT]$  tar -xvf Python-3.10.2.tgz`
+
+Navigate to the extracted directory by running the following command:
+
+```yaml
+[opc@jenkins-master WBX_GPT]$ cd Python-3.10.2
+
+[opc@jenkins-master WBX_GPT]$ ./configure --enable-optimizations
+```
+
+Build and install Python 3.10 using the following command:
+
+```yaml
+[opc@jenkins-master WBX_GPT]$ make
+
+[opc@jenkins-master WBX_GPT]$ sudo make altinstall
+
+[opc@jenkins-master WBX_GPT]$ python3.10.2 --version
+Python 3.10.2
+
+```
+
+Then you can create your environment normal...
+
+# CREATE VENV PYTHON 3.10.2 WITH wbx_gpt
+
+```yaml
+[opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON]$ python3.10 -m venv wbx_gpt
+
+[opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON]$ cd wbx_gpt
+
+[opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON]$ source wbx_gpt/bin/activate
+
+(wbx_gpt) [opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON]$ python --version
+Python 3.10.2
+```
+
+
++ Install Py VENV with dependencies: webexteamssdk, requests, webex_bot
 
 ```yaml
 (wbx_gpt) [opc@jenkins-master WBX_GPT]$ pip install webexteamssdk
@@ -96,7 +150,6 @@ Successfully installed backoff-2.2.1 coloredlogs-15.0.1 humanfriendly-10.0 webex
 
 + Assign file wbx_gpt.py as executable.
 
-
 ```yaml
     (wbx_gpt) [opc@jenkins-master WBX_GPT]$ ls
     wbx_gpt
@@ -122,8 +175,8 @@ Successfully installed backoff-2.2.1 coloredlogs-15.0.1 humanfriendly-10.0 webex
 (wbx_gpt) [opc@jenkins-master WBX_GPT]$ echo $WEBEX_TOKEN
 
 ```
-+ Now we need to set this variable in your code wbx_gpt.py.
 
++ Now we need to set this variable in your code wbx_gpt.py.
 
 ```python
 import os
