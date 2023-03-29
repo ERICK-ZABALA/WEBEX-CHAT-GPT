@@ -33,7 +33,7 @@ Bots, Give Webex users access to outside services right from their Webex spaces.
 
 ![image](https://user-images.githubusercontent.com/38144008/226158285-439babfb-10ce-4fdb-b4eb-20653a6b77c2.png)
 
-# Install Python 3.10.2 and Dependencies
+# INSTALL PYTHON 3.10.2
 
 To install python in your development environment. you can follow these steps.
 
@@ -67,7 +67,7 @@ Python 3.10.2
 
 Then you can create your environment normal...
 
-# CREATE VENV PYTHON 3.10.2
+# CREATE VENV PYTHON 3.10.2 AND DEPENDENCIES
 
 ```yaml
 [opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON]$ python3.10 -m venv wbx_gpt
@@ -79,7 +79,6 @@ Then you can create your environment normal...
 (wbx_gpt) [opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON]$ python --version
 Python 3.10.2
 ```
-
 
 + Install Py VENV with dependencies: webexteamssdk, requests, webex_bot
 
@@ -148,6 +147,13 @@ Successfully installed backoff-2.2.1 coloredlogs-15.0.1 humanfriendly-10.0 webex
 (wbx_gpt) [opc@jenkins-master WBX_GPT]$ 
 ```
 
++ Create requirements.txt to have all the library and version about your project, permt to specify the dependencies of a project, making it easier for others to recreate the same development environment and install the required packages.
+
+```
+(wbx_gpt) [opc@jenkins-master WBX_GPT]$  pip install -r requirements.txt.
+```
+
+
 + Assign file wbx_gpt.py as executable.
 
 ```yaml
@@ -190,6 +196,7 @@ WEBEX_DOMAIN = os.environ.get('WEBEX_DOMAIN')
 
 ![image](https://user-images.githubusercontent.com/38144008/226158793-7bfaffed-b9a2-42cf-a430-a2613e699ed6.png)
 
+1. Create this code: 
 
 ```python
 
@@ -197,7 +204,7 @@ WEBEX_DOMAIN = os.environ.get('WEBEX_DOMAIN')
 import os
 import requests
 from urllib3 import disable_warnings, exceptions
-# Importa la biblioteca de WebEx de Python
+# Import the library
 from webexteamssdk import WebexTeamsAPI
 from webex_bot.webex_bot import WebexBot
 
