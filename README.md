@@ -260,7 +260,7 @@ Just run: `(wbx_gpt) [opc@jenkins-master WBX_GPT]$ ./wbx_gpt.py`
 
 # Note: 
 
-At this moment you can clone this repository to run the integration between webex and chat GPT. However, if you whant to know what changes I did in the file webex_bot.py you can continue reading... 
+At this moment you can clone this repository to run the integration between webex and chat GPT. However, if you want to know what changes I did in the file webex_bot.py you can continue reading... 
 
 + Step 1, Step 2 and Step 3.
 
