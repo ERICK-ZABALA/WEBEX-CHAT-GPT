@@ -11,6 +11,8 @@ Click in the Dino!!!
 
 + Authentication, generate an API Key
 
+Authentication is a process that ensures that the user accessing a service or application is authorized to do so. To enable secure and controlled access to an API, developers often generate an API Key, which is a unique string of characters used to identify and authenticate the user or application accessing the API. 
+
 ![image](https://user-images.githubusercontent.com/38144008/226156680-7920742d-6018-404e-8a0d-9740e57d5167.png)
 
 Here you have the access: 
@@ -243,7 +245,7 @@ if __name__ == "__main__":
 
 ![image](https://user-images.githubusercontent.com/38144008/226158793-7bfaffed-b9a2-42cf-a430-a2613e699ed6.png)
 
-# Final Integration
+# FINAL INTEGRATION
 
 ![image](https://user-images.githubusercontent.com/38144008/226161524-7561cfa9-a237-49bb-a85c-426012445ff2.png)
 
@@ -395,7 +397,7 @@ Replace this function in file webex_bot.py per:
   ```
 Note: The other function below just maintain and that's all :)
 
-# Final Integration
+# FINAL INTEGRATION
 
 ![image](https://user-images.githubusercontent.com/38144008/226161524-7561cfa9-a237-49bb-a85c-426012445ff2.png)
 
