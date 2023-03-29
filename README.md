@@ -255,12 +255,11 @@ At this moment you can clone this repository to run the integration between webe
 
 + Step 1, Step 2 and Step 3.
 
+# Step 1
+
 + We are going to modify part of the library webex_bot.py
 
 ![image](https://user-images.githubusercontent.com/38144008/226158984-d380c656-67e6-438f-8c77-81c422999068.png)
-
-
-# Step 1
 
 You should add this code in the file webex_bot.py
 
