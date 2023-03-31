@@ -1,6 +1,7 @@
 # [![image](https://user-images.githubusercontent.com/38144008/226164092-bdda6ad6-cd04-4ffe-9149-7770101d9c42.png)](https://youtu.be/uuG_UTtXaZw)
 
-[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/ERICK-ZABALA/AUTOMATING-A-NETWORK-INVENTORY-WITH-PYTHON) [![Run in Cisco Cloud IDE](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-runable-icon.svg)](https://developer.cisco.com/devenv/?id=devenv-vscode-base&GITHUB_SOURCE_REPO=https://github.com/ERICK-ZABALA/AUTOMATING-A-NETWORK-INVENTORY-WITH-PYTHON)
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/ERICK-ZABALA/WEBEX-CHAT-GPT)[![Run in Cisco Cloud IDE](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-runable-icon.svg)](https://developer.cisco.com/devenv/?id=devenv-vscode-base&GITHUB_SOURCE_REPO=https://github.com/ERICK-ZABALA/WEBEX-CHAT-GPT)
+
 # WEBEX AND CHAT GPT
 
 ChatGPT-Webex integration script! This basic script allows you to easily establish communication between ChatGPT, the advanced language model created by OpenAI, and Webex, the popular video conferencing and collaboration platform provided by Cisco. By utilizing API keys provided by OpenAI and Cisco, you can quickly generate an integration that enables seamless communication between these two powerful platforms. The ultimate goal of this project is to facilitate easy and efficient communication between ChatGPT and Webex, unlocking new possibilities for collaboration and innovation. 
