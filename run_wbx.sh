@@ -1,7 +1,7 @@
 #!/bin/bash
 cd /home/opc/DEVNET/WEBEX-CHAT-GPT/
 echo "export WEBEX_TOKEN=NTc1ZTY1ZDQtZGMxYS00YzEyLTljMDEtMzMzM2VjNzBjZTRiNmE5MGQ5ZDUtZjM3_PF84_81a7c864-4083-4c54-8097-2c1e5ee1140a" >> ~/.bashrc
-echo "export GPT_TOKEN=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" >> ~/.bashrc
+echo "export GPT_TOKEN=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" >> ~/.bashrc
 echo "export WEBEX_DOMAIN=WbxGPT@webex.bot" >> ~/.bashrc
 echo "Variables asignadas...ok"
 source wbx_gpt/bin/activate 
