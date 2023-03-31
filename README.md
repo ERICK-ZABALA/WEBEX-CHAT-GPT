@@ -157,7 +157,7 @@ Successfully installed backoff-2.2.1 coloredlogs-15.0.1 humanfriendly-10.0 webex
 (wbx_gpt) [opc@jenkins-master WBX_GPT]$ 
 ```
 
-+ As well you can isntall all the requeriments with the file "requirements.txt" (optional)
++ As well you can isntall all the requeriments using the file "requirements.txt" (optional)
 
 ```yaml
 
@@ -192,7 +192,6 @@ Successfully installed backoff-2.2.1 coloredlogs-15.0.1 humanfriendly-10.0 webex
 ```
 
 + Store your credentials as variable of environment
-
 
 ```yaml
 
