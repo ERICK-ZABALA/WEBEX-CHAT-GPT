@@ -64,6 +64,7 @@ Build and install Python 3.10 using the following command:
 [opc@jenkins-master WBX_GPT]$ sudo make altinstall
 
 [opc@jenkins-master WBX_GPT]$ python3.10.2 --version
+
 Python 3.10.2
 
 ```
@@ -80,11 +81,13 @@ Then you can create your environment normal...
 [opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON]$ source wbx_gpt/bin/activate
 
 (wbx_gpt) [opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON]$ python --version
+
 Python 3.10.2
 ```
 
 + Install Py VENV with dependencies: webexteamssdk, requests, webex_bot
 
++ Install webexteamssdk
 ```yaml
 (wbx_gpt) [opc@jenkins-master WBX_GPT]$ pip install webexteamssdk
 Collecting webexteamssdk
@@ -115,6 +118,8 @@ Installing collected packages: urllib3, PyJWT, idna, future, charset-normalizer,
 Successfully installed PyJWT-2.6.0 certifi-2022.12.7 charset-normalizer-3.1.0 future-0.18.3 idna-3.4 requests-2.28.2 requests-toolbelt-0.10.1 urllib3-1.26.15 webexteamssdk-1.6.1
 ```
 
++ Install requests
+
 ```yaml
 (wbx_gpt) [opc@jenkins-master WBX_GPT]$ pip install requests
 Requirement already satisfied: requests in ./wbx_gpt/lib/python3.10/site-packages (2.28.2)
@@ -123,6 +128,8 @@ Requirement already satisfied: urllib3<1.27,>=1.21.1 in ./wbx_gpt/lib/python3.10
 Requirement already satisfied: idna<4,>=2.5 in ./wbx_gpt/lib/python3.10/site-packages (from requests) (3.4)
 Requirement already satisfied: charset-normalizer<4,>=2 in ./wbx_gpt/lib/python3.10/site-packages (from requests) (3.1.0)
 ```
+
++ Install webex_bot
 
 ```yaml
 (wbx_gpt) [opc@jenkins-master WBX_GPT]$ pip install webex_bot
@@ -148,6 +155,18 @@ Requirement already satisfied: idna<4,>=2.5 in ./wbx_gpt/lib/python3.10/site-pac
 Installing collected packages: websockets, humanfriendly, backoff, coloredlogs, webex_bot
 Successfully installed backoff-2.2.1 coloredlogs-15.0.1 humanfriendly-10.0 webex_bot-0.3.4 websockets-10.2
 (wbx_gpt) [opc@jenkins-master WBX_GPT]$ 
+```
+
++ As well you can isntall all the requeriments with the file "requirements.txt" (optional)
+
+```yaml
+
+[opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON]$ cd wbx_gpt
+
+[opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON]$ source wbx_gpt/bin/activate
+
+(wbx_gpt) [opc@jenkins-master WBX_GPT]$ pip install -r requirements.txt
+
 ```
 
 + Create requirements.txt to have all the library and version about your project, permt to specify the dependencies of a project, making it easier for others to recreate the same development environment and install the required packages.
