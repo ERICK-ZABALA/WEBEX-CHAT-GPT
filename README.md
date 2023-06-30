@@ -8,6 +8,10 @@ ChatGPT-Webex integration script! This basic script allows you to easily establi
 
 Click on the logo to see the demo!
 
+# Proof of Concept
+
+https://github.com/ERICK-ZABALA/WEBEX-CHAT-GPT/assets/38144008/0d41fed1-bfef-4603-8b74-d3f84591aa61
+
 # CHAT GPT
 
 + Authentication, generate an API Key
